@@ -8,12 +8,16 @@ body {
     background: #fafafa;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkslateblue;
+}
+
 p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
 }
 
 a,
@@ -214,6 +218,16 @@ a.article:hover {
     /* Be sure to prefix where necessary */
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+}
+
+.mainContainer {
+    margin-left:2%;
+    margin-right:2%;
+    border:solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #999;
+    padding:2%;
 }
 
 /* #login-sign-in-link{
