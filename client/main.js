@@ -9,10 +9,10 @@ import brands from '@fortawesome/fontawesome-free-brands'
 import '../imports/client/views/index.html';
 import '../imports/client/views/aboutme.html';
 import '../imports/client/views/navbar.html';
-import '../imports/client/views/sidebar.html';
 import '../imports/client/views/resources.html';
 import '../imports/client/views/seniors.html';
-import '../imports/client/views/Juniors.html';
+import '../imports/client/views/juniors.html';
 import '../imports/client/views/';
 import '../imports/client/main.html';
 import '../imports/client/router.js';
+import '../imports/client/handlers.js';

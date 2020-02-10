@@ -2,4 +2,29 @@
     <ol class="breadcrumb">
         <li class="breadcrumb-item active">Seniors</li>
     </ol>
+    <div class="containContainer">
+        
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col"  colspan="2"> <h3>Topics</h3></th>
+            <th scope="col"> <h3>State</h3></th>
+          </tr>
+        </thead>
+          <tbody>
+            {{#each topic}}
+                <tr>
+                    <th scope="row">{{@index}}</th>
+                    <td  colspan="2"><a href="blog/{{slug}}"><p>{{title}}</p></a></td>
+                    {{#if read}}
+                        <td>  <p style="color: green;">read</p> </td>
+                    {{else}}
+                        <td>  <p style="color:orange;">unread</p> </td>
+                    {{/if}}
+                </tr>
+            {{/each}}
+        </tbody>
+      </table>
+    </div>
 </template>
