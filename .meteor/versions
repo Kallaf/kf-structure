@@ -39,6 +39,7 @@ cfs:worker@0.1.5
 check@1.3.1
 chuangbo:cookie@1.1.0
 coffeescript@1.0.17
+cooperm:side-comments@0.1.2
 ddp@1.4.0
 ddp-client@2.3.3
 ddp-common@1.4.0
